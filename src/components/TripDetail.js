@@ -16,7 +16,7 @@ function TripDetail() {
             <div className="row justify-content-center">
               <div className="col-lg-8">
                 <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">
-                  {trip.name}
+                  {tripFind.name}
                 </h2>
                 <div className="divider-custom">
                   <div className="divider-custom-line"></div>

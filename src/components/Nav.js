@@ -8,7 +8,7 @@ function Nav() {
       id="mainNav"
     >
       <div className="container">
-        <NavLink className="navbar-brand" to="/">
+        <NavLink className="navbar-brand" to="/Home.js">
           Hike
         </NavLink>
 
