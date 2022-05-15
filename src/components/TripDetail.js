@@ -7,7 +7,7 @@ function TripDetail() {
   const trip = tripsData[0];
   const { tripId } = useParams();
   const tripFind = tripsData.find((trip) => trip.id === +tripId);
-  if (!trip) return <Navigate to="/Home" />;
+  if (!tripFind) return <Navigate to="/Home.js" />;
   return (
     <div className="modal-dialog modal-xl">
       <div className="modal-content">
